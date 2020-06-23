@@ -1,5 +1,4 @@
 ﻿$subscription = "05aea7c9-25e9-4b5d-aeb5-fd0713992c6b"
-$oid = "ecfc380a-1ab2-463c-bdd3-9550ce8f2bee"
 $numbEnv = 3
 $numbInNameToStartAt = 1
 $environmentName = "bugbashloop"

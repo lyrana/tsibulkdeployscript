@@ -1,0 +1,26 @@
+{
+    "$schema":  "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion":  "1.0.0.0",
+    "parameters":  {
+                       "environmentTimeSeriesIdProperties":  {
+                                                                 "value":  [
+                                                                               {
+                                                                                   "name":  "iothub-connection-device-id",
+                                                                                   "type":  "string"
+                                                                               }
+                                                                           ]
+                                                             },
+                       "iotHubName":  {
+                                          "value":  "bugbashloophub3"
+                                      },
+                       "consumerGroupName":  {
+                                                 "value":  "bugbashgroup"
+                                             },
+                       "environmentName":  {
+                                               "value":  "bugbashloop3"
+                                           },
+                       "eventSourceName":  {
+                                               "value":  "bugbashloop3eventSource"
+                                           }
+                   }
+}
